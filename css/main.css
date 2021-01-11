@@ -1,0 +1,427 @@
+/*************************************************Genericas*************************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap');
+
+.blue_btn {
+    width: 213px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: #0066FF;
+}
+
+.my-40 {
+    margin: 40px 0px;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.small-text {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.text-lightblue {
+    color: #0066FF;
+}
+
+.text-blue {
+    color: #37485C;
+}
+
+
+/*************************************************Genericas*************************************************/
+
+
+/*************************************************Header*************************************************/
+
+body {
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    padding: 0px;
+    margin: 0;
+    max-width: 1920px;
+    background-color: #E8E8E8;
+}
+
+
+/*************************************************Header*************************************************/
+
+
+/*************************************************Nav-menu*************************************************/
+
+.nav-li {
+    font-family: 'Source Sans Pro';
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.nav-link {
+    padding: 0px;
+}
+
+.navbar-library {
+    height: 55px;
+    z-index: 999;
+}
+
+li.nav-item:hover {
+    background-color: #37485C;
+}
+
+.right-nav-li{
+    font-size: 10px;
+    margin-top: 0px;
+    text-align: left;
+}
+
+.top-links{
+    text-decoration: none;
+    font-size: 12px;
+}
+.top-links i{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/*************************************************Nav-menu*************************************************/
+
+
+/*************************************************Main*************************************************/
+
+.arrows-border{
+    border: 4px solid #37485C;
+}
+
+.big_title_cover {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.blue_line_library_cover {
+    position: absolute;
+    top: 395px;
+    left: 280px;
+    width: 5px;
+    height: 50px;
+    background-color: #0066FF;
+}
+
+.btn_library_cover {
+    position: absolute;
+    top: 520px;
+}
+
+.experience_card {
+    width: 285px;
+    height: 250px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.experience_title{
+    position: absolute; 
+    top: 50%;
+    left: 30%;
+}
+
+.h120gray {
+    height: 120px;
+    background-color: #E8E8E8;
+}
+
+.h60gray{
+    height: 60px;
+    background-color: #E8E8E8;
+}
+
+.img_book_slider {
+    width: 160px;
+    height: 250px;
+}
+
+.video {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.img_certification {
+    width: 590px;
+    height: 510px;
+    object-fit: cover;
+}
+
+.img_taller {
+    width: 350px;
+    object-fit: fill;
+}
+
+.nye-arrows{
+    position: absolute;
+    left: 15px;
+    bottom: 5px;
+}
+
+.nye-arrows a i{
+    font-weight: 600;
+}
+
+.nye-img{
+    object-fit: cover;
+    width: 360px;
+    height: 360px
+}
+
+.nye-numbers{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.nye-numbers a{
+    color: #6C757D;
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.nye-numbers a:hover{
+    color: #37485C;
+    text-decoration: none;
+    border-bottom: 4px solid #0066FF;
+}
+
+.nye-text{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    font-size: 34px;
+    font-weight: 800;
+    font-family: 'Montserrat';
+    background-color: #E8E8E8;
+}
+
+.nye-white-border{
+    border: 8px solid #FFFFFF;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.shape_container {
+    padding: 20px;
+    height: 550px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: auto;
+}
+
+.stat-icon{
+    font-size: 34px !important;
+}
+
+.stat-number{
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.title {
+    min-height: 56px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1;
+    font-family: 'Montserrat';
+}
+
+.service_more {
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: 'Montserrat';
+}
+
+.blue_container {
+    padding: 10px;
+    width: 100%;
+    height: 480px;
+    background-color: #37485c;
+    position: relative;
+}
+
+.subtitle_library_cover {
+    position: absolute;
+    top: 440px;
+    left: 330px;
+    font-size: 32px;
+}
+
+.title_container {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.title_container_workshops {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: 'Montserrat';
+}
+
+.title_cover {
+    position: absolute;
+    top: 250px;
+    left: 450px;
+    font-size: 50px;
+    font-family: 'Montserrat';
+}
+
+.title_services {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+.video_cover {
+    height: 632px;
+    width: 100%;
+    position: relative;
+}
+
+.workshop_container {
+    padding: 20px;
+    height: 650px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: relative;
+    margin: auto;
+}
+
+.workshop_text {
+    font-family: 'Source Sans Pro';
+    min-height: 60px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #353E47;
+}
+
+.workshop_title {
+    min-height: 64px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Montserrat';
+}
+
+.workshop_small_text {
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 12px;
+    color: #37485C;
+}
+
+
+/*************************************************Main*************************************************/
+
+
+/*************************************************Footer*************************************************/
+
+footer {
+    background-color: #37485c;
+    padding: 50px;
+}
+
+.footer_nav {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer_title {
+    min-height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.footer_text {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+
+/*************************************************Footer*************************************************/
+
+
+/*************************************************Mobile*************************************************/
+
+@media screen and (max-width: 480px) {}
+
+
+/*************************************************Mobile*************************************************/
+
+
+/*************************************************Tablet*************************************************/
+
+@media screen and (min-width: 481px) and (max-width: 768px) {}
+
+
+/*************************************************Tablet*************************************************/
+
+
+/*************************************************Laptop*************************************************/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+
+/*************************************************Laptop*************************************************/
+
+
+/*************************************************Desktop*************************************************/
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {}
+
+
+/*************************************************Desktop*************************************************/
+
+
+/*************************************************Tv*************************************************/
+
+@media screen and (min-width: 1201px) and (max-width: 1920px) {}
+
+
+/*************************************************Tv*************************************************/
+
+
+/*************************************************Xl*************************************************/
+
+@media screen and (min-width: 1921px) {
+    .img_library {
+        width: auto;
+        height: auto;
+    }
+    .virtual_library {
+        height: 900px;
+        position: relative;
+    }
+}
+
+
+/*************************************************Xl*************************************************/
